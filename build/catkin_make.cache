@@ -1,0 +1,2 @@
+baxter_pykdl:track
+-DCATKIN_DEVEL_PREFIX=/home/cc/ee106a/fa17/class/ee106a-aab/ros_workspaces/final/devel -DCMAKE_INSTALL_PREFIX=/home/cc/ee106a/fa17/class/ee106a-aab/ros_workspaces/final/install -G Unix Makefiles

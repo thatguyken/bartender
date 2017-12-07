@@ -1,0 +1,8 @@
+prefix=/home/cc/ee106a/fa17/class/ee106a-aab/ros_workspaces/final/devel
+
+Name: track
+Description: Description of track
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/cc/ee106a/fa17/class/ee106a-aab/ros_workspaces/final/devel/lib 
+Requires: 
