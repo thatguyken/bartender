@@ -17,7 +17,7 @@ def callback(msg,prevMarkers):
 
     detected_markers = []   
     for marker in prevMarkers.keys():
-        if abs(prevMarkers[marker]-int(now)) < 30.0: #if the measurement has been stale for 5 seconds
+        if abs(prevMarkers[marker]-int(now)) < 30.0:
             detected_markers.append(marker)
 
     array1 = MultiArrayDimension()
@@ -34,10 +34,6 @@ def callback(msg,prevMarkers):
     pub.publish(msg)
     
 if __name__ == '__main__':
-    #This node is responsible for reading the ar_pose_marker
-    #topic and reporting back all markers that have been recently
-    #detected in the last five seconds" 
-
     rospy.init_node('publishMarkerInfo')
     foundMarkers = {}
     global pub
